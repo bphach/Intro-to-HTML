@@ -1,0 +1,12 @@
+HTML SHORTCUT
+! /-/ prints out Meta type & tag.
+"tag" will be used as an example reference, its not a literal element nor function.
+tag. /-/ generate tag with class.
+tag# /-/ generate tag with id.
+
+highlight a specific word that appears more than one and press CTRL + D to highlight mutiple lines
+to go to the next line without moving your mouse, press CTRL + ENTER
+SHIFT + ALT + A = use to comment a block of code
+To duplicate a line of code or block of code, go to the end of the line OR HIGLIGHT block of code and press SHIFT + ALT + DOWNARROWKEY 
+CTRL + S - save your work and also refresh your page. 
+
