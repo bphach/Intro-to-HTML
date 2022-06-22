@@ -10,3 +10,5 @@ SHIFT + ALT + A = use to comment a block of code
 To duplicate a line of code or block of code, go to the end of the line OR HIGLIGHT block of code and press SHIFT + ALT + DOWNARROWKEY 
 CTRL + S - save your work and also refresh your page. 
 
+
+On vscode if you type "!" then tab it will load up all the basics things you need 
