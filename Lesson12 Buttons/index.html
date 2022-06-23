@@ -10,6 +10,23 @@
 
 <body>
 
+    <a href="https://www.google.com">
+        <button style="background-color:rgb(71, 0, 171); color:chocolate; border-raidus:5px">cick me dweeb</button>
+        <!--to create a button you must use the button tag-->
+    </a>
+
+    <button onclick="doSomething()" style="background-color: darkolivegreen" ;>no click me!</button>
+    <!--clicking on this button should execution this function to perform the task between the set of curly braces-->
+
+    <p id="test">Hello</p>
+
+    <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "goodbye!";
+
+        }
+    </script>
+    <!--script tags let you write a script between them-->
 </body>
 
 </html>
