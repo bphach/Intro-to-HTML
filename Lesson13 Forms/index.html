@@ -9,6 +9,103 @@
 </head>
 
 <body>
+    <form action="action_page.php" method="POST">
+        <!--in order to make a form, you must use the form tag-->
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="patrick" required>
+            <!--placeholder are there to help give an idea on what to do, the required is an boolean use to make sure the user fills it right-->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="star" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass" maxlength="15" required>
+            <!--to have an password function, you must the pass tag-->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="star@email.com" required>
+            <!--to have an email function, you must use the email tag-->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(368)251-4897" required>
+            <!--to have an phone number function, you must use the tel tag-->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">birthdate:</label>
+            <input type="date" id="bdate" name="bdate" placeholder="7-11-1987" required>
+            <!--to have an date function, you must use the date tag-->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Number" min="0" max="99" value="1" required>
+            <!--to have an quantity function, you must use the number tag-->
+        </div>
+
+        <br>
+
+
+        <div>
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+            <label for="Phd.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="Dr.">
+            <!--having it all have the same title makes it so you can only select one option-->
+        </div>
+
+        <br>
+
+
+        <div>
+            <label for="payment">payment:</label>
+            <select id="payment" name="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for "subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <!--to create an checkbox, use the checkbox tag-->
+        </div>
+
+
+        <div>
+            <input type="submit" </div>
+
+    </form>
 
 </body>
 
